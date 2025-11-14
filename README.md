@@ -23,11 +23,11 @@ cd web && npm run dev
 
 Drontend proxy `/api` to `http://localhost:5179`.
 
-## Rute importante
+## Important Routes
 - `GET /api/reviews/hostaway` – normalize (mock) Hostaway, query filters.
 - `GET /api/reviews?placeId=...` – Hostaway + Google (if exists)
 - `POST /api/reviews/approval` – { reviewId, approved }.
 - `GET /api/public/reviews?listingName=...` – only approved reviews
 
-## Notă
+## Note
 Sandbox Hostaway does not has reviews -> use `server/src/mock/hostaway.sample.json`.
